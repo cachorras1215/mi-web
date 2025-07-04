@@ -1,0 +1,30 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.contenedor {
+  display: flex;
+  flex-direction: row;
+  padding: 20px;
+}
+
+.izquierda, .derecha {
+  flex: 1;
+  padding: 20px;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+video {
+  width: 400%;
+  max-width: 700px; /* ajusta el ancho máximo */
+  height: 300px;     /* mantiene la proporción original */
+  display: block;
+  margin-top: 20px;
+}
